@@ -1,0 +1,10 @@
+// Tạo khung, để tạo các thư mục bên dưới (vd database/models/...) tự động gõ lệnh sequelize init
+
+require('@babel/register')
+const path = require('path');
+module.exports = {
+"config": path.resolve('./src/database', 'config.js'),
+"models-path": path.resolve('./src/models'),
+"seeders-path": path.resolve('./src/database/seeders'),
+"migrations-path": path.resolve('./src/database/migrations')
+};

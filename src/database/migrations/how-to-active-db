@@ -1,0 +1,3 @@
+// Sử dụng lệnh dưới này để tạo db, migrate k tự tạo db
+
+// sequelize db:migrate

@@ -1,0 +1,6 @@
+// support for ES2015 (ES6) .. for example, import express from 'express'
+
+{
+    "presets": ["@babel/preset-env"]
+    // "presets": ["es2015"]
+}

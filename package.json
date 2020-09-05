@@ -1,0 +1,55 @@
+{
+  "name": "internet_banking",
+  "version": "0.1.0",
+  "description": "Đồ án môn học Phát triển ứng dụng Web nâng cao CQ2016/31",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js",
+    "start:dev": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/languyenit598/Internet_Banking.git"
+  },
+  "author": "HL team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/languyenit598/Internet_Banking/issues"
+  },
+  "homepage": "https://github.com/languyenit598/Internet_Banking#readme",
+  "dependencies": {
+    "@types/sequelize": "^4.28.9",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "moment-timezone": "^0.5.31",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^2.6.0",
+    "node-rsa": "^1.0.8",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4",
+    "openpgp": "^4.10.7",
+    "request": "^2.88.2",
+    "requests": "^0.3.0",
+    "sendgrid": "^5.2.3",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^6.2.0",
+    "sha256": "^0.2.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-es2015": "^7.0.0-beta.53"
+  }
+}
