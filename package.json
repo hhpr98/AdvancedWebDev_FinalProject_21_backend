@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/languyenit598/Internet_Banking.git"
+    "url": "git+https://github.com/hhpr98/AdvancedWebDev_FinalProject_21_backend.git"
   },
   "author": "HL team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/languyenit598/Internet_Banking/issues"
+    "url": "https://github.com/hhpr98/AdvancedWebDev_FinalProject_21_backend/issues"
   },
-  "homepage": "https://github.com/languyenit598/Internet_Banking#readme",
+  "homepage": "https://github.com/hhpr98/AdvancedWebDev_FinalProject_21_backend#readme",
   "dependencies": {
     "@types/sequelize": "^4.28.9",
     "bcrypt": "^5.0.0",

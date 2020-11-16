@@ -225,7 +225,7 @@ const getPartnerInfo = async (req, res) => {
         requestTime: timeStamp,
         hash: hash,
       };
-      console.log(body);
+      // console.log(body);
       const headers = {
         "Content-Type": "application/json",
       };
@@ -491,7 +491,7 @@ let transactionPartner = async (req, res) => {
       hash: hash,
       signature: detachedSignature,
     };
-    console.log(body);
+    // console.log(body);
 
     const headers = {
       "Content-Type": "application/json",

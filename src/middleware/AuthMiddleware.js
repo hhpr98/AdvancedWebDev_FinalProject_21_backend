@@ -4,7 +4,7 @@ const accessTokenSecret = process.env.ACCESS_TOKEN_SECRET || config.accessTokenS
 
 const isAuth = async (req, res, next) => {
   const tokenFromClient = req.body.token || req.query.token || req.headers["x-access-token"] || req.header('Authorization')?.replace('Bearer ', '');
-  console.log('a',tokenFromClient);
+  // console.log('a',tokenFromClient);
   if (tokenFromClient) {
     // Nếu tồn tại token
     try {

@@ -20,10 +20,6 @@ app.use(express.urlencoded({
   extended: true
 }));
 
-// sync the db 
-// const db = require("./src/models");
-// db.sequelize.sync();
-
 
 //app.use(cookieParser());
 
