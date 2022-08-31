@@ -28,7 +28,7 @@
     "fetch": "^1.1.0",
     "jsonwebtoken": "^8.5.1",
     "md5": "^2.2.1",
-    "moment-timezone": "^0.5.31",
+    "moment-timezone": "^0.5.35",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
