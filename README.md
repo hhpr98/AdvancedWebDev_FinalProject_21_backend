@@ -1,8 +1,6 @@
 # Internet_Banking (backend)
 Đồ án môn học Phát triển ứng dụng Web nâng cao CQ2016/31
 
-Clone from : https://github.com/languyenit598/Internet_Banking/
-
 Site at : https://monca.me/
 
 <p align="center">
