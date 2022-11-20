@@ -32,7 +32,7 @@
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
-    "node-fetch": "^3.1.1",
+    "node-fetch": "^3.2.10",
     "node-rsa": "^1.0.8",
     "nodemailer": "^6.6.1",
     "nodemon": "^2.0.4",
